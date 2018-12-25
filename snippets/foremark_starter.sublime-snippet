@@ -13,7 +13,7 @@ _style_.}
 ${5:Content}
 
 ]]&gt;&lt;/mf-text> &lt;!-- Foremark footer -->
-&lt;script src="https://unpkg.com/foremark/browser/foremark.js" data-rel="foremark" />
+&lt;script src="https://unpkg.com/foremark/browser/foremark.js" data-rel="foremark" async="async" />
 &lt;style>mf-text{white-space:pre-wrap;font-family:monospace}&lt;/style>&lt;/body>&lt;/html>
 </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

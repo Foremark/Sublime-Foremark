@@ -1,0 +1,7 @@
+[
+  {
+    "id": "foremark_help",
+    "caption": "Foremark: Open documentation",
+    "command": "foremark_open_documentation",
+  }
+]

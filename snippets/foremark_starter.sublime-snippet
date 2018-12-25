@@ -1,0 +1,23 @@
+<snippet><content>
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">&lt;body>&lt;mf-text>&lt;![CDATA[
+
+                            **${1:Title}**
+
+${2:Welcome to Foremark. It's the simple way to write plain text with
+_style_.}
+
+# ${3:Section}
+
+## ${4:Subsection}
+
+${5:Content}
+
+]]&gt;&lt;/mf-text> &lt;!-- Foremark footer -->
+&lt;script src="https://unpkg.com/foremark/browser/foremark.js" data-rel="foremark" />
+&lt;style>mf-text{white-space:pre-wrap;font-family:monospace}&lt;/style>&lt;/body>&lt;/html>
+</content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>foremark</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.foremark</scope>
+</snippet>

@@ -66,7 +66,7 @@ contexts:
         1: punctuation.definition.tag.begin.xml
         2: entity.name.tag.script.html
       push: script-javascript
-    - match: '(<)(mf-text)\b'
+    - match: '(<)(mf-text|pre)\b'
       captures:
         0: meta.tag.mf-text.begin.html
         1: punctuation.definition.tag.begin.xml
@@ -356,7 +356,7 @@ contexts:
         - match: (?=.)
           embed: mftext-common
           escape: (?=\]\]>)
-    - match: (</)(mf-text)(>)
+    - match: (</)(mf-text|pre)(>)
       scope: meta.tag.style.end.html
       captures:
         1: punctuation.definition.tag.begin.xml

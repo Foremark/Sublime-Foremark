@@ -1,5 +1,5 @@
 <snippet><content>
-&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">&lt;body>&lt;mf-text>&lt;![CDATA[
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">&lt;pre>&lt;![CDATA[
 
                             **${1:Title}**
 
@@ -12,9 +12,8 @@ _style_.}
 
 ${5:Content}
 
-]]&gt;&lt;/mf-text> &lt;!-- Foremark footer -->
-&lt;script src="https://unpkg.com/foremark/browser/foremark.js" data-rel="foremark" async="async" />
-&lt;style>mf-text{white-space:pre-wrap;font-family:monospace}&lt;/style>&lt;/body>&lt;/html>
+]]&gt;&lt;/pre> &lt;!-- Foremark footer -->
+&lt;script src="https://unpkg.com/foremark/browser/foremark.js" data-rel="foremark" async="async" />&lt;/html>
 </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>foremark</tabTrigger>

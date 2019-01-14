@@ -13,7 +13,7 @@ _style_.}
 ${5:Content}
 
 ]]&gt;&lt;/pre> &lt;!-- Foremark footer -->
-&lt;script src="https://unpkg.com/foremark/browser/foremark.js" data-rel="foremark" async="async" />&lt;/html>
+&lt;script src="https://unpkg.com/foremark/browser/foremark.js" async="async" />&lt;/html>
 </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>foremark</tabTrigger>

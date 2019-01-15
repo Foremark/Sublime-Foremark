@@ -1073,17 +1073,17 @@ contexts:
       scope: keyword.operator
 
   block_diagram:
-    - match: ^\s*(:::)
+    - match: ^\s*(::)
       captures:
         1: punctuation.block.diagram.begin
       push:
         - meta_scope: markup.raw.block.diagram
 
-        - match: ^\s*(:::)
+        - match: ^\s*(::)
           captures:
             1: punctuation.block.diagram.begin
 
-        - match: ^(?!\s*(:::))
+        - match: ^(?!\s*(::))
           pop: true
 
   footnotes:
